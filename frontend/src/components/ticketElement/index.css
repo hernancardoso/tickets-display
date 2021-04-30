@@ -1,0 +1,55 @@
+.inline {
+  display: flex;
+  flex-direction: row;
+}
+.spaced {
+  justify-content: space-between;
+}
+.close {
+  justify-content: left;
+}
+
+.item {
+  margin-top: 15px;
+}
+
+.item .header {
+  padding: 4px 0 0 0;
+}
+.item .header span {
+  font-size: small;
+  font-weight: 520;
+}
+
+.item .subject {
+  font-size: small;
+  font-weight: 600;
+  height: 20px;
+  padding-top: 4px;
+}
+
+.item .subject span {
+  margin: -1px 0 0 5px;
+  font-size: medium;
+}
+
+.item hr:first-child {
+  width: 102%;
+  border: 0px;
+  border-bottom: 2px solid #eaecec;
+  padding-bottom: 10px;
+  margin-left: -1%;
+}
+
+.item .message {
+  padding-top: 5px;
+  font-size: medium;
+}
+
+.arrow {
+  width: 30px;
+  align-self: center;
+  text-align: right;
+  color: #eb4e46;
+  font-size: xx-large;
+}

@@ -1,0 +1,13 @@
+.badge{
+    color: white;
+    border-radius: 4px;
+    padding: 0px 5px 0px 5px;
+    text-transform:uppercase;
+}
+
+.NEW{
+    background-color: #eb4e46;
+}
+.SOLVED{
+    background-color: #6d1dc0;
+}

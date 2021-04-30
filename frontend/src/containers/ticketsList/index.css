@@ -1,0 +1,20 @@
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+.title{
+  font-size: x-large;
+  font-weight: 700;
+  margin: 5px 0 5px 0;
+}
+.separator{
+  width: 102%;
+  border-bottom: 2px solid #eaecec;
+  padding-bottom: 10px;
+  margin-left:-1%;
+}
+.title p:first-child{
+  margin: 0; 
+}
+  
